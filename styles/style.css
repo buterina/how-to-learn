@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  position: relative;
 }
 
 .logo {
@@ -80,6 +81,11 @@
   padding: 0;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .description {
   margin: 100px 0 0 0;
   padding: 0 auto;
@@ -101,7 +107,7 @@
   line-height: 1.2;
   margin: 0;
   padding: 0;
-  }
+}
 
 .two-columns__paragraph {
   font-size: 24px;
@@ -157,6 +163,7 @@
 .table {
   width: 1100px;
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   padding: 0;
   justify-content: space-evenly;
@@ -180,10 +187,13 @@
 }
 
 .table__cell {
+  list-style-type: none;
+}
+
+.table__cell_theme_light {
   width: 250px;
-  vertical-align: top;
-  padding-top: 60px;
-  padding-right: 20px;
+  padding: 60px 20px 0 0;
+  margin: 0;
 }
 
 .feynman {
@@ -197,7 +207,7 @@
 
 .feynman__title {
   width: 648px;
-  font-size:  120px;
+  font-size: 120px;
   font-weight: 600;
   line-height: 1.15;
   text-align: center;
@@ -225,6 +235,7 @@
   line-height: 51px;
   padding: 0;
   margin: 0;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -257,8 +268,8 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 0;
+  padding: 80px 0 0 0;
   position: relative;
   z-index: 3;
 }
@@ -286,7 +297,6 @@
   min-height: 350px;
   margin: 0;
   padding: 60px 0 40px;
-
 }
 
 .footer__columns {
@@ -300,9 +310,14 @@
 }
 
 .footer__column_copyright {
-flex-basis: 711px;
-margin: 0;
-padding: 0;
+  flex-basis: 711px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .logo__place_footer {
@@ -315,9 +330,6 @@ padding: 0;
   font-weight: normal;
   line-height: 25px;
   color: white;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
   padding: 18px 0;
   margin: 0;
 }
@@ -342,13 +354,14 @@ padding: 0;
   font-weight: normal;
   line-height: 30px;
   color: white;
+  text-decoration: none;
 }
 
 .footer__column_links {
   list-style-type: none;
   padding: 20px 0 16px 0;
   margin: 0;
-  }
+}
 
 .column-info-social {
   display: flex;
@@ -356,5 +369,3 @@ padding: 0;
   padding: 0;
   margin: 0;
 }
-
-
