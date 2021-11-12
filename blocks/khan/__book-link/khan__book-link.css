@@ -6,10 +6,9 @@
   color: #2f80ed;
   margin: 0;
   padding: 0;
-  min-height: 42px;
+  transition: opacity 1.5s linear;
 }
 
 .khan__book-link:hover {
   opacity: 70%;
-  transition: opacity 1.5s linear;
 }
