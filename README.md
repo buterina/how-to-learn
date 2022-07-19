@@ -1,16 +1,16 @@
-# Learning How to Learn: project work for Practicum web development course
+# Learning How to Learn: a project work for Practicum web development course
 
 ## Description:
 
-"Learning how to Learn" is a one-page website about learning strategies based on philosophy of Barbara Oakley and Josh Kaufman
+"Learning how to Learn" is a one-page website about learning strategies based on Barbara Oakley's and Josh Kaufman's ideas
 
 ## Technologies:
 
-*HTML5;
+-HTML5;
 
-*CSS (flexbox, animations);
+-CSS (flexbox, animations);
 
-*BEM (Block, Element, Modifier) methodology
+-BEM (Block, Element, Modifier) methodology
 
 ## Demo:
 
