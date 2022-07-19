@@ -1,4 +1,4 @@
-# Learning How to Learn: a project work for Practicum web development course
+# Learning How to Learn: a project for Practicum web development course
 
 ## Description:
 
