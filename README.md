@@ -4,7 +4,7 @@
 
 "Learning how to Learn" is a one-page website about learning strategies based on Barbara Oakley's and Josh Kaufman's ideas
 
-## Technologies:
+## Tech:
 
 -HTML5;
 
